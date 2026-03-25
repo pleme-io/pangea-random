@@ -4,6 +4,8 @@
 require 'pangea-core'
 require 'terraform-synthesizer'
 
+module Pangea; module Resources; module Random; module Types; end; end; end; end
+
 # Random resources
 require_relative 'pangea/resources/random_bytes/resource'
 require_relative 'pangea/resources/random_id/resource'
